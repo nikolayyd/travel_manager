@@ -1,0 +1,58 @@
+[
+    {
+        "start_city": "London",
+        "destination": "Paris",
+        "date": "2024-03-15",
+        "budget": 145.0,
+        "activities": [
+            "shipping",
+            "riding"
+        ]
+    },
+    {
+        "start_city": "Madrid",
+        "destination": "Rome",
+        "date": "2024-03-16",
+        "budget": 200.0,
+        "activities": [
+            "beach",
+            "spa"
+        ]
+    },
+    {
+        "start_city": "Sofia",
+        "destination": "Madrid",
+        "date": "2024-03-17",
+        "budget": 400.0,
+        "activities": [
+            ""
+        ]
+    },
+    {
+        "start_city": "Sofia",
+        "destination": "London",
+        "date": "2024-03-22",
+        "budget": 2000.0,
+        "activities": [
+            ""
+        ]
+    },
+    {
+        "start_city": "Sofia",
+        "destination": "Madrid",
+        "date": "2024-02-16",
+        "budget": 1200.0,
+        "activities": [
+            ""
+        ]
+    },
+    {
+        "start_city": "Burgas",
+        "destination": "Paris",
+        "date": "2024-03-22",
+        "budget": 700.0,
+        "activities": [
+            ""
+        ]
+    }
+]
