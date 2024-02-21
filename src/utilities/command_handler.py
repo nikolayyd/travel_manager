@@ -162,7 +162,7 @@ def handle_command(choice: str,
     elif choice == "view":
         view_trips(trips_list)
     elif choice == "delete":
-        index = int("\nEnter which trip you want to delete: ") - 1
+        index = int(input("\nEnter which trip you want to delete (int): ")) - 1
         delete_trip(trips_list, index)
     elif choice == "filter":
         key = input("\nEnter a way of filtering : \n\t1.date \n\t2.budget \n\t3.destination\n: ")
@@ -176,7 +176,7 @@ def handle_command(choice: str,
     elif choice == "import":
         trips_list = import_from_json()
     elif choice == "ticket-price":
-        trip_index = input("\nEnter which trip's expense you want to see: ")
+        trip_index = input("\nEnter which trip's expense you want to see (int): ")
         ticket_price = get_ticket_price_for_trip(int(trip_index), trips_list, travel_api)
         if ticket_price > 0:
             print(f"\nPrice: {ticket_price}")
